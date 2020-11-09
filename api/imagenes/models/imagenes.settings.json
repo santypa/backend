@@ -30,9 +30,9 @@
       "dominant": true
     },
     "user": {
+      "via": "imagenes",
       "plugin": "users-permissions",
-      "model": "user",
-      "via": "imagenes"
+      "model": "user"
     }
   }
 }
