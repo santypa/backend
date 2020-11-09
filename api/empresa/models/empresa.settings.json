@@ -39,6 +39,9 @@
       ],
       "plugin": "upload",
       "required": true
+    },
+    "nempresa": {
+      "type": "string"
     }
   }
 }

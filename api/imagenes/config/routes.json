@@ -2,6 +2,15 @@
   "routes": [
     {
       "method": "GET",
+      "path": "/imagenes/ver",
+      "handler": "imagenes.ver",
+      "config": {
+        "policies": []
+      }
+    },
+
+    {
+      "method": "GET",
       "path": "/imagenes",
       "handler": "imagenes.find",
       "config": {
