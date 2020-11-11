@@ -2,12 +2,13 @@
   "kind": "collectionType",
   "collectionName": "categorias",
   "info": {
-    "name": "categorias"
+    "name": "categorias",
+    "description": ""
   },
   "options": {
     "increments": true,
     "timestamps": true,
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "attributes": {
     "nombre": {
@@ -15,8 +16,8 @@
       "required": true
     },
     "imagenes": {
-      "via": "categorias",
-      "collection": "imagenes"
+      "collection": "imagenes",
+      "via": "categorias"
     }
   }
 }

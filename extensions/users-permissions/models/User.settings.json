@@ -60,8 +60,8 @@
       "configurable": false
     },
     "imagenes": {
-      "collection": "imagenes",
-      "via": "user"
+      "via": "user",
+      "collection": "imagenes"
     },
     "empresa": {
       "model": "empresa"
