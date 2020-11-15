@@ -19,10 +19,6 @@
       "type": "string",
       "required": true
     },
-    "clave": {
-      "type": "password",
-      "required": true
-    },
     "telefono": {
       "type": "string",
       "required": true
@@ -39,9 +35,6 @@
       ],
       "plugin": "upload",
       "required": true
-    },
-    "nempresa": {
-      "type": "string"
     }
   }
 }
