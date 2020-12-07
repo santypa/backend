@@ -35,6 +35,11 @@
       ],
       "plugin": "upload",
       "required": true
+    },
+    "user": {
+      "via": "empresa",
+      "plugin": "users-permissions",
+      "model": "user"
     }
   }
 }

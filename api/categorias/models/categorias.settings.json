@@ -16,8 +16,8 @@
       "required": true
     },
     "imagenes": {
-      "collection": "imagenes",
-      "via": "categorias"
+      "via": "categorias",
+      "collection": "imagenes"
     }
   }
 }

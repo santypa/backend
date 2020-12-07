@@ -25,14 +25,15 @@
       "required": true
     },
     "categorias": {
-      "via": "imagenes",
       "collection": "categorias",
+      "via": "imagenes",
       "dominant": true
     },
-    "user": {
+    "users": {
+      "via": "imagenes",
       "plugin": "users-permissions",
-      "model": "user",
-      "via": "imagenes"
+      "collection": "user",
+      "dominant": true
     }
   }
 }
