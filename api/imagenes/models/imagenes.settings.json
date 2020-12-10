@@ -38,6 +38,13 @@
     "empresa": {
       "via": "imagenes",
       "model": "empresa"
+    },
+    "users": {
+      "via": "imagenes",
+      "plugin": "users-permissions",
+      "collection": "user",
+      "dominant": true
 
+    }
   }
 }

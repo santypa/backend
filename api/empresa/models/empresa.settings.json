@@ -36,7 +36,7 @@
       "plugin": "upload",
       "required": true
     },
-<<<<<<< HEAD
+
     "imagenes": {
       "collection": "imagenes",
       "via": "empresa"
@@ -44,12 +44,12 @@
     "formato": {
       "model": "formato",
       "via": "empresas"
-=======
+    },
     "user": {
       "via": "empresa",
       "plugin": "users-permissions",
       "model": "user"
->>>>>>> 2e61575259624c74a64ff8d761fb0045afd8edfc
+
     }
   }
 }

@@ -63,8 +63,12 @@
     "imagenes": {
       "via": "user",
       "collection": "imagenes"
+    },
+    "empresa": {
+      "model": "empresa",
+      "via": "user"
 
-    
+    }
+
   }
-}
 }
