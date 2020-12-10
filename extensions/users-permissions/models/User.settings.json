@@ -59,12 +59,12 @@
       "plugin": "users-permissions",
       "configurable": false
     },
+
     "imagenes": {
       "via": "user",
       "collection": "imagenes"
-    },
-    "empresa": {
-      "model": "empresa"
-    }
+
+    
   }
+}
 }

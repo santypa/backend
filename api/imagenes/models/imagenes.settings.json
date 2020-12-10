@@ -29,6 +29,7 @@
       "via": "imagenes",
       "dominant": true
     },
+
     "user": {
       "plugin": "users-permissions",
       "model": "user",
@@ -37,6 +38,6 @@
     "empresa": {
       "via": "imagenes",
       "model": "empresa"
-    }
+
   }
 }
