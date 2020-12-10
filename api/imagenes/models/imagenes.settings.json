@@ -8,7 +8,7 @@
   "options": {
     "increments": true,
     "timestamps": true,
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "attributes": {
     "descripcion": {
@@ -30,9 +30,13 @@
       "dominant": true
     },
     "user": {
-      "via": "imagenes",
       "plugin": "users-permissions",
-      "model": "user"
+      "model": "user",
+      "via": "imagenes"
+    },
+    "empresa": {
+      "via": "imagenes",
+      "model": "empresa"
     }
   }
 }

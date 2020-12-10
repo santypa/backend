@@ -8,7 +8,7 @@
   "options": {
     "increments": true,
     "timestamps": true,
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "attributes": {
     "nombre": {
@@ -17,10 +17,6 @@
     },
     "correo": {
       "type": "string",
-      "required": true
-    },
-    "clave": {
-      "type": "password",
       "required": true
     },
     "telefono": {
@@ -40,8 +36,13 @@
       "plugin": "upload",
       "required": true
     },
-    "nempresa": {
-      "type": "string"
+    "imagenes": {
+      "collection": "imagenes",
+      "via": "empresa"
+    },
+    "formato": {
+      "model": "formato",
+      "via": "empresas"
     }
   }
 }

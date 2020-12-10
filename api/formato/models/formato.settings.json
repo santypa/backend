@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "formatoes",
+  "info": {
+    "name": "formato"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "formato": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "empresas": {
+      "via": "formato",
+      "collection": "empresa"
+    }
+  }
+}
