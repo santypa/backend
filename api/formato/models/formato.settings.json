@@ -2,12 +2,13 @@
   "kind": "collectionType",
   "collectionName": "formatoes",
   "info": {
-    "name": "formato"
+    "name": "formato",
+    "description": ""
   },
   "options": {
     "increments": true,
     "timestamps": true,
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "attributes": {
     "formato": {
@@ -19,9 +20,9 @@
       "plugin": "upload",
       "required": true
     },
-    "empresas": {
+    "empresa": {
       "via": "formato",
-      "collection": "empresa"
+      "model": "empresa"
     }
   }
 }

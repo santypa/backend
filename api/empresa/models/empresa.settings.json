@@ -36,20 +36,18 @@
       "plugin": "upload",
       "required": true
     },
-
     "imagenes": {
       "collection": "imagenes",
       "via": "empresa"
     },
     "formato": {
       "model": "formato",
-      "via": "empresas"
+      "via": "empresa"
     },
     "user": {
-      "via": "empresa",
       "plugin": "users-permissions",
-      "model": "user"
-
+      "model": "user",
+      "via": "empresa"
     }
   }
 }

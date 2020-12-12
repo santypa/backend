@@ -59,16 +59,13 @@
       "plugin": "users-permissions",
       "configurable": false
     },
-
+    "empresa": {
+      "via": "user",
+      "model": "empresa"
+    },
     "imagenes": {
       "via": "user",
       "collection": "imagenes"
-    },
-    "empresa": {
-      "model": "empresa",
-      "via": "user"
-
     }
-
   }
 }
