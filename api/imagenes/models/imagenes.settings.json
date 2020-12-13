@@ -34,8 +34,8 @@
       "via": "imagenes"
     },
     "categoria": {
-      "model": "categorias",
-      "via": "imagenes"
+      "via": "imagenes",
+      "model": "categorias"
     }
   }
 }
