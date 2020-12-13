@@ -62,6 +62,14 @@
     "empresa": {
       "via": "user",
       "model": "empresa"
+    },
+    "categorias": {
+      "via": "user",
+      "collection": "categorias"
+    },
+    "imagenes": {
+      "via": "user",
+      "collection": "imagenes"
     }
   }
 }

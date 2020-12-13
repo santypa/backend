@@ -18,6 +18,11 @@
     "imagenes": {
       "via": "categoria",
       "collection": "imagenes"
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "categorias"
     }
   }
 }

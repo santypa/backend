@@ -30,7 +30,8 @@
     },
     "user": {
       "plugin": "users-permissions",
-      "model": "user"
+      "model": "user",
+      "via": "imagenes"
     },
     "categoria": {
       "model": "categorias",
