@@ -16,7 +16,7 @@
       "required": true
     },
     "imagenes": {
-      "via": "categorias",
+      "via": "categoria",
       "collection": "imagenes"
     }
   }

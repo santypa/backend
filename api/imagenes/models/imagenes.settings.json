@@ -24,19 +24,17 @@
       "plugin": "upload",
       "required": true
     },
-    "categorias": {
-      "collection": "categorias",
-      "via": "imagenes",
-      "dominant": true
+    "empresa": {
+      "model": "empresa",
+      "via": "imagenes"
     },
     "user": {
       "plugin": "users-permissions",
-      "model": "user",
-      "via": "imagenes"
+      "model": "user"
     },
-    "empresa": {
-      "via": "imagenes",
-      "model": "empresa"
+    "categoria": {
+      "model": "categorias",
+      "via": "imagenes"
     }
   }
 }

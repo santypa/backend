@@ -62,10 +62,6 @@
     "empresa": {
       "via": "user",
       "model": "empresa"
-    },
-    "imagenes": {
-      "via": "user",
-      "collection": "imagenes"
     }
   }
 }
